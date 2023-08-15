@@ -1,9 +1,12 @@
 import { ClerkProvider } from "@clerk/nextjs";
 import { Inter } from "next/font/google";
 import '../globals.css';
+
+
+
 export const metaData = {
-  title: "Threads",
-  description: "Threads is a simple forum app built with Next.js and Prisma.",
+  title: "Threads | A NextJS13 Clone",
+  description: "Threads is a simple forum app built with Next.js.",
 };
 const inter = Inter({ subsets: ["latin"] });
 
